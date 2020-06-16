@@ -1,0 +1,33 @@
+Create a simple CRUD web page of XYZ School.
+1. Show the list of students:
+[{
+rollNo: <6digitnumber>,
+name: <OnlyAlphabets [a-zA-Z]>,
+gender: <M/F/O>,
+standard:<OnlyRomanNumerals example: IV, V, XI etc>
+dob: <Display in this format: 27 Dec 1993 Only>
+}]
+2. Able to add more students into the students list.
+3. Able to update any information of the particular student from the students list.
+4. Able to delete any particular student from the students list.
+Please come up with a responsive single web page design of the above requirement.
+1. Custom CSS with the use of Vanilla Javascript (Should not use any third party CSS
+framework like: Bootstrap, Material Design etc. and Javascript framework like: Jquery, Angular
+or React etc.)
+2. Prefer to use OOPs concept of javascript.
+3. Do not use databases. Just on the fly javascript CRUD functionality.
+4. Use validation wherever it is required.
+5. Use of icon/image is allowed.
+6. Prefer use of Modal Box for addition & updation.
+Evaluation will be done on the following basis:
+1. Attractive UI design & UX experience of the web page.
+2. All CRUD functionality should work.
+3. Clean & readable source code.
+4. Source code should be free from any bug.
+5. Responsiveness of the web page.
+How to submit it:
+1. Create a README.txt file and explain how to run your code.
+2. Put all the files & README.txt file in a folder and write your full name as a folder name.
+3. Compress the folder and upload a zip folder in a google drive.
+4. Share the drive link with us. (See all necessary drive permission is given to access the zip
+files).
