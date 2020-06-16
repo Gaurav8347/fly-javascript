@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Advenchar</title>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+
+
+
+<body>
+<table padding-top: 12px;
+  padding-bottom: 12px;
+  align="center">
+  
+<tr>
+<td>
+ <form   name="RegForm" onsubmit="event.preventDefault();sign_in_validation();">
+   
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					<p align="center">ADVENCHAR CONNECTS YOU</p>
+				</span>
+
+				<div class="wrap-input100 validate-input"  data-validate="rno is required">
+					<input class="input100" id="rno" type="text" name="rno" placeholder="Roll No"   pattern="\d{6}"  maxlength="6" >
+					
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="name is required"  >
+					<input class="input100" id="name1" type="text" name="name1" placeholder="Name" >
+					
+				</div>	
+				
+				<div class="wrap-input100 validate-input" data-validate="Standard is required">
+					<input class="input100" id="stan" type="text" name="stan" placeholder="Standard">
+					
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="DOB is required">
+					<input class="input100" id="dob" type="text" name="dob" placeholder="Dob is required">
+					
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Gender is required">
+					<input class="input100"  id="gen1"  type="text" name="gen" placeholder="Gender">
+					
+				</div>
+
+				        
+						<input type="submit" value="SUBMIT" >
+			</form>
+</td>
+			
+			<td>
+		  	    <div class="container-contact100">
+		         <div class="wrap-contact100">
+			<table style="width:100%" align="center"   class="table" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Roll No</th>
+                            <th>Name</th>
+                            <th>Standard</th>
+                            <th>Dob</th>
+							<th>Gender</th>
+							<th>Options</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+       
+    </table>
+</tr>			
+</table>
+<script src="script.js"></script>
+</body>
+</html>
